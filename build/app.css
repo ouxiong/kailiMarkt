@@ -1,0 +1,429 @@
+h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, td, img, form, input, p, html, body, fieldset, div {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+.clearfloat:after {
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  height: 0;
+  visibility: hidden; }
+
+.clearfloat {
+  zoom: 1; }
+
+body {
+  background: red; }
+
+h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, td, img, form, input, p, html, body, fieldset, div {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+.clearfloat:after {
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  height: 0;
+  visibility: hidden; }
+
+.clearfloat {
+  zoom: 1; }
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background: #f4f4f8; }
+
+html {
+  font-size: 16px; }
+
+/* hearder start */
+.hearder-img img {
+  width: 100%;
+  height: auto; }
+
+.middle-box {
+  background: #fff;
+  height: 2.75rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  border-bottom: 1px #999 solid; }
+  .middle-box .header-search-box {
+    height: 1.75rem;
+    width: 18.5rem;
+    background: #f2f2f2;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    border-radius: .17067rem; }
+    .middle-box .header-search-box .search-icons {
+      height: 1.75rem;
+      width: 1.75rem;
+      display: inline-block; }
+      .middle-box .header-search-box .search-icons i {
+        font-size: .9375rem;
+        line-height: 1.75rem;
+        text-align: center;
+        padding-left: .4375rem;
+        color: #999; }
+    .middle-box .header-search-box .search-input {
+      height: 1.75rem;
+      color: #999;
+      line-height: 1.75rem;
+      font-size: .875rem; }
+  .middle-box .user-box {
+    height: 2.3125rem;
+    width: 2.8125rem;
+    margin-left: 1rem; }
+    .middle-box .user-box i {
+      font-size: 2.5rem;
+      color: #999; }
+
+.swiper-container.nav {
+  height: 2.375rem;
+  padding: 0  1.25rem;
+  font-size: .875rem;
+  background: #fff; }
+  .swiper-container.nav .swiper-slide {
+    width: auto;
+    line-height: 2.375rem; }
+
+/* hearder end */
+/* banner start */
+.banner {
+  width: 100%;
+  height: 9.0625rem; }
+  .banner .swiper-slide img {
+    width: 100%;
+    height: auto; }
+
+/* banner end */
+/* links start */
+.link-box {
+  width: 100%;
+  height: 5.625rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -padding-top: 1.25rem;
+  background: #fff; }
+  .link-box li {
+    height: 100%;
+    flex: 1; }
+    .link-box li a {
+      font-size: .875rem;
+      height: 100%;
+      color: #666;
+      text-align: center;
+      padding-top: .3125rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+      .link-box li a img {
+        height: 2.5rem;
+        width: auto; }
+
+/* links end */
+/* ad-box start */
+.ad-box {
+  padding-top: .625rem;
+  background-color: #dee; }
+  .ad-box .ad-one {
+    width: 100%;
+    height: 14.25rem;
+    display: flex; }
+    .ad-box .ad-one .ad-one-left, .ad-box .ad-one .ad-one-right {
+      height: 100%;
+      flex: 1; }
+    .ad-box .ad-one .ad-one-left img {
+      height: 14.25rem;
+      width: auto; }
+    .ad-box .ad-one .ad-one-right img {
+      height: 7.125rem;
+      width: auto; }
+  .ad-box .ad-two {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    .ad-box .ad-two a {
+      width: 100%; }
+      .ad-box .ad-two a img {
+        height: auto;
+        width: 100%; }
+    .ad-box .ad-two img {
+      width: 100%;
+      height: auto; }
+    .ad-box .ad-two .ad-two-box {
+      display: flex; }
+      .ad-box .ad-two .ad-two-box a {
+        flex: 1; }
+        .ad-box .ad-two .ad-two-box a img {
+          width: 100%;
+          height: auto; }
+
+/* ad-box end */
+/* content start */
+.main-box .main {
+  margin-top: .625rem; }
+  .main-box .main .main-classify .main-classify-l .main-header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0.5rem 0.6rem;
+    background: #fff; }
+    .main-box .main .main-classify .main-classify-l .main-header .main-header-logo {
+      width: 1.75rem;
+      border: .05rem solid #ebebeb;
+      padding: 0.45rem 0;
+      margin-left: 0.5rem; }
+      .main-box .main .main-classify .main-classify-l .main-header .main-header-logo > img {
+        float: left;
+        width: 1.75rem; }
+    .main-box .main .main-classify .main-classify-l .main-header .main-header-merchant {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      width: 13.25rem; }
+      .main-box .main .main-classify .main-classify-l .main-header .main-header-merchant p {
+        margin: 0; }
+      .main-box .main .main-classify .main-classify-l .main-header .main-header-merchant p:nth-child(1) {
+        font-size: 0.7rem;
+        color: #666; }
+      .main-box .main .main-classify .main-classify-l .main-header .main-header-merchant p:nth-child(2) {
+        font-size: 0.6rem;
+        color: #999; }
+    .main-box .main .main-classify .main-classify-l .main-header .main-header-groupon {
+      margin-top: 0.5rem;
+      font-size: 0.6rem;
+      color: #999; }
+  .main-box .main .main-classify .main-classify-l .main-content {
+    display: flex;
+    justify-content: space-between; }
+    .main-box .main .main-classify .main-classify-l .main-content .new-goods-item {
+      width: 49.9%;
+      background: #fff;
+      padding: 0 0.6rem 0.6rem; }
+      .main-box .main .main-classify .main-classify-l .main-content .new-goods-item p {
+        font-size: 0.6rem;
+        color: #666; }
+        .main-box .main .main-classify .main-classify-l .main-content .new-goods-item p > span {
+          font-size: 0.7rem;
+          color: #ff464e; }
+        .main-box .main .main-classify .main-classify-l .main-content .new-goods-item p .gray-text {
+          color: #999;
+          font-size: 0.5rem;
+          text-decoration: line-through;
+          padding-left: 0.3rem; }
+    .main-box .main .main-classify .main-classify-l .main-content img {
+      width: 100%;
+      margin-bottom: 0.4rem; }
+    .main-box .main .main-classify .main-classify-l .main-content p {
+      margin: 0; }
+
+/* content end */
+/* footer start */
+.footerBox {
+  width: 100%;
+  height: 3.125rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footerBox .footBox-item {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #999; }
+    .footerBox .footBox-item i {
+      font-size: 1.5rem; }
+    .footerBox .footBox-item span {
+      font-size: .625rem; }
+  .footerBox .active {
+    color: #FF464E; }
+  .footerBox .go-to-top {
+    position: fixed;
+    bottom: 3.5rem;
+    right: .5rem;
+    display: block; }
+    .footerBox .go-to-top span {
+      display: block;
+      border-radius: 3.125rem;
+      height: 3.125rem;
+      width: 3.125rem;
+      background: #f4f4f8; }
+  .footerBox .hidden {
+    display: none; }
+
+/* footer end */
+/* quanqui */
+/* header start */
+.quanqui-header {
+  width: 100%;
+  height: 2.75rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #ccc; }
+  .quanqui-header .quanqui-target-box {
+    height: 2.75rem;
+    width: 2.75rem;
+    -background-color: red; }
+    .quanqui-header .quanqui-target-box .iconfont {
+      width: 2.75rem;
+      font-size: 2rem;
+      line-height: 2.75rem;
+      text-align: center; }
+  .quanqui-header .quanqui-title {
+    width: 17.375rem;
+    height: 2.75rem;
+    font-size: 1.125rem; }
+    .quanqui-header .quanqui-title span {
+      width: 17.375rem;
+      height: 2.75rem;
+      display: block;
+      line-height: 2.75rem;
+      text-align: center; }
+
+/* header end */
+/* moudel start */
+.quanqui-moudleAD {
+  height: 11.25rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  .quanqui-moudleAD .quanqui-moudleADItem {
+    height: 5.625rem;
+    width: 11.71875rem;
+    box-sizing: border-box;
+    border-bottom: .0625rem solid #ccc;
+    border-right: .0625rem solid #ccc; }
+    .quanqui-moudleAD .quanqui-moudleADItem img {
+      height: 5.625rem;
+      width: auto; }
+
+/* moudel end */
+.StraightHair {
+  background: #fff; }
+  .StraightHair .straightHairHeader {
+    width: 100%;
+    height: 2.75rem; }
+    .StraightHair .straightHairHeader ._header {
+      display: block;
+      width: 100%;
+      line-height: 2.75rem;
+      font-size: 1.125rem;
+      text-align: center;
+      -padding: 0 2.25rem;
+      position: absolute; }
+    .StraightHair .straightHairHeader .straightHairHeader_fl {
+      position: relative;
+      float: right;
+      width: 2.75rem;
+      height: 2.3125rem;
+      padding-top: 0.375rem;
+      display: flex;
+      justify-content: center; }
+      .StraightHair .straightHairHeader .straightHairHeader_fl .fenlei {
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 1.5rem;
+        color: #666; }
+  .StraightHair .StraightHairArrange ._StraightHairArrange {
+    padding: 0.3125rem 0;
+    border-top: 0.0625rem solid #ebebeb;
+    border-bottom: 0.0625rem solid #ebebeb; }
+    .StraightHair .StraightHairArrange ._StraightHairArrange > ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0; }
+      .StraightHair .StraightHairArrange ._StraightHairArrange > ul > li {
+        width: 100%;
+        font-size: 0.875rem;
+        line-height: 1.875rem;
+        text-align: center; }
+      .StraightHair .StraightHairArrange ._StraightHairArrange > ul .price {
+        border-left: 0.0625rem solid #ebebeb;
+        border-right: 0.0625rem solid #ebebeb; }
+        .StraightHair .StraightHairArrange ._StraightHairArrange > ul .price > img {
+          display: inline-block;
+          height: 1rem;
+          margin-left: 0.4375rem; }
+  .StraightHair .StraightHairMain .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .StraightHair .StraightHairMain .main-content .new-goods-item {
+      width: 49.9%;
+      height: 15.25rem;
+      background: #fff;
+      margin-top: 0.125rem; }
+      .StraightHair .StraightHairMain .main-content .new-goods-item .price-new {
+        margin-right: 0.25rem; }
+      .StraightHair .StraightHairMain .main-content .new-goods-item .pin {
+        display: inline-block;
+        height: 0.75rem;
+        line-height: 0.75rem;
+        padding: 0.09375rem;
+        padding-bottom: 0.0625rem;
+        font-size: 0.0625rem;
+        background-color: #ff464e;
+        color: #fff;
+        margin-left: 0;
+        margin-right: .27rem; }
+      .StraightHair .StraightHairMain .main-content .new-goods-item p {
+        font-size: 0.75rem;
+        color: #666;
+        margin: 0 0.5rem; }
+        .StraightHair .StraightHairMain .main-content .new-goods-item p > span {
+          font-size: 0.875rem;
+          color: #ff464e; }
+        .StraightHair .StraightHairMain .main-content .new-goods-item p .gray-text {
+          color: #999;
+          font-size: 0.625rem;
+          text-decoration: line-through;
+          padding-left: 0.375rem; }
+        .StraightHair .StraightHairMain .main-content .new-goods-item p .zhifa {
+          color: #ff464e;
+          border: 1px solid #ff464e;
+          font-size: 0.6875rem;
+          padding-left: 0.125rem;
+          padding-right: 0.125rem;
+          margin-right: 0.25rem;
+          line-height: 0.6875rem; }
+    .StraightHair .StraightHairMain .main-content img {
+      width: 100%;
+      margin-bottom: 0.5rem; }
+    .StraightHair .StraightHairMain .main-content p {
+      margin: 0; }

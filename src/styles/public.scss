@@ -1,0 +1,8 @@
+h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,td,img,form,input,p,html,body,fieldset,div{ margin:0; padding:0;}
+ul li{ list-style:none;}
+a{ text-decoration:none;}
+img{ border:0; display:block;}
+.clearfloat:after{ content:"."; clear:both; display:block; overflow:hidden; height:0; visibility:hidden;}
+.clearfloat{zoom:1}
+
+

@@ -1,0 +1,163 @@
+
+
+/* quanqui */
+/* header start */
+.quanqui-header{
+    width: 100%;
+    height: 2.75rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    .quanqui-target-box{
+        height:2.75rem;
+        width: 2.75rem;
+       -background-color: red;
+
+        .iconfont{
+            width: 2.75rem;
+            font-size:2rem;
+            line-height: 2.75rem;
+            text-align: center;
+        }
+    }
+    .quanqui-title{
+        width: 17.375rem;
+        height:2.75rem;
+        font-size: 1.125rem;
+        
+
+        span{
+            width: 17.375rem;
+            height:2.75rem;
+            display: block;
+            line-height: 2.75rem;
+            text-align: center;
+
+        }
+    }
+}
+/* header end */
+
+
+/* moudel start */
+.quanqui-moudleAD{
+    height: 11.25rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .quanqui-moudleADItem{
+        height:5.625rem;
+        width: 11.71875rem;
+        box-sizing: border-box;
+        border-bottom: .0625rem solid #ccc;
+        border-right: .0625rem solid #ccc;
+
+        img{
+            height: 5.625rem;
+            width: auto;
+        }
+    }
+}
+/* moudel end */
+
+
+
+// moudleMain
+
+.brand-home-group{
+    width: 100%;
+    height: auto;
+    margin-bottom:1.25rem;
+    margin-top: 0;
+    overflow: hidden;
+    background: #fff;
+    margin-right:.3125rem;
+    .banner{
+        overflow: hidden;
+        width:100%;
+        height:auto;
+        position: relative;
+        display: block;
+        .top-jiaobiao{
+            font-size: .5rem;
+            width: 2.8125rem;
+            height: 2rem;
+            z-index: 2;
+            top: 0;
+            left: .625rem;
+            line-height: 1.1;
+            padding-top: 1.2%;
+            background: url(http://jp.juancdn.com/jpwebapp_v1/images_v1/icon/top-jiaobiao.png) 50% no-repeat;
+            background-size: contain;
+            text-align: center;
+            box-sizing: border-box;
+            color:#fff;
+            position: absolute;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .yinliu-box{
+        width:100%;
+        height: 10rem;
+        overflow: hidden;
+        padding-top: .625rem;
+        .yinliu-list{
+            padding-bottom: 1.25rem;
+            white-space: nowrap;
+            font-size: 0;
+            overflow: hidden;
+            overflow-x: auto;
+            .yinliu-good{
+                margin-left: .625rem;
+                height:9.375rem;
+                width:6.5625rem;
+                display: inline-block;
+                overflow: hidden;
+                vertical-align: top;
+                .good-pic{
+                    display: block;
+                    height:5.625rem;
+                    width:5.625rem;
+                }
+                .good-detail{
+                    display: block;
+                    width:100%;
+                    height:auto;
+                    padding: .625rem 0 .875rem;
+                    text-align: center;
+                    .good-price{
+                        height:.875rem;
+                        margin-bottom: .1875rem;
+                        color:#bbb;
+                        .price-new{
+                            font-size: .75rem;
+                            color: #60e;
+                            margin-right: 2px;
+                        }
+                        .price-del{
+                            font-size: .625rem;
+                            text-decoration: line-through;
+                             vertical-align: top;
+                        }
+                    }
+                    .good-name{
+                        height:1.75rem;
+                        font-size: .75rem;
+                        line-height: 1.2;
+                        color: #666;
+                        white-space: normal;
+                        word-break: break-all;
+                    }
+                }
+                img{
+                    width:100%;
+                }
+            }
+        }
+    }
+}
